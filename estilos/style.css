@@ -133,7 +133,7 @@ article#video .video-container{
 
 article h2{
   color: var(--destaque);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -148,14 +148,10 @@ article h2{
 
 #skill-container{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
-@media screen and (min-width: 768px) {
-  #skill-container{
-    grid-template-columns: 1fr 1fr;
-  }
-}
+
 
 #skill .info{
   display: flex;
@@ -187,4 +183,41 @@ article h2{
 div.info > span >i{
   color: var(--destaque);
   font-size: 1.5em;
+}
+
+#formacao-container{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px
+}
+
+#formacao-container .curso{
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding-left: 10px;
+  transition: border-width .3s, border-color .3s;
+}
+
+#formacao-container .curso:hover{
+  border-left-width: 15px;
+  cursor: pointer;
+  border-color: var(--destaque);
+}
+
+#formacao-container .periodo{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--texto)
+}
+
+#formacao-container .instituicao{
+  color: var(--destaque-inverso);
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 768px) {
+  #skill-container{
+    grid-template-columns: 1fr 1fr;
+  }
 }
