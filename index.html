@@ -13,11 +13,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-hammer"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skill" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-hammer"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -34,20 +34,22 @@
                 <a href="https://www.cursoemvideo.com" target="_blank" rel="nofollow"><i class="fa-solid fa-globe"></i></a>
             </div>
         </section>
+
         <section id="detalhes">
             <article id="video">
                 <h2><i class="fa-solid fa-handshake"></i>Deixe-me apresentar</h2>
                 <div class="video-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/vl0eatPehLs?si=bw6c1ZohBH3j8NYR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    
                 </div>
             </article><!--FIM DO ARTICLE DE VIDEO-->
             <!--************************************************************
                 Mudar a barra de progresso e deixar um icone do item e seu 
                 nome sem a barra de progreso, apenas nome e icone-->
+
             <article id="skill">
                 <h2><i class="fa-solid fa-brain"></i>Minhas Skills</h2>
                     <div id="skill-container">
+                        <!---->
                         <div class="item">
                             <div class="info">
                                 <span class="nome"><i class="fa-brands fa-html5"></i> HTML 5</span>
@@ -57,7 +59,7 @@
                                 <div class="progresso" style="width:90%;"></div>
                             </div>
                         </div>
-
+                        <!---->
                         <div class="item">
                             <div class="info">
                                 <span class="nome"><i class="fa-brands fa-css3-alt"></i> CSS</span>
@@ -67,12 +69,32 @@
                                 <div class="progresso" style="width:90%;"></div>
                             </div>
                         </div>
+                        <!---->
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome"><i class="fa-brands fa-php"></i> PHP</span>
+                                <span class="porcent">90%</span>
+                            </div>
+                            <div class="barra">
+                                <div class="progresso" style="width:90%;"></div>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome"><i class="fa-solid fa-database"></i> SQL</span>
+                                <span class="porcent">90%</span>
+                            </div>
+                            <div class="barra">
+                                <div class="progresso" style="width:90%;"></div>
+                            </div>
+                        </div>
                     </div>
-
             </article> <!--FIM DO ARTICLE DE SKILLS-->
                 
             <article id="formacao"><!--Inicio da formação-->
                 <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
+                    <!---->
                     <div id="formacao-container">
                         <div class="curso">
                             <p class="periodo">2024 - 2026</p>
@@ -80,15 +102,58 @@
                             <p class="titulacao">Tecnico em informática</p>
                         </div>
                     </div>
+                    <!---->
             </article> <!--FIM DO ARTICLE DE FORMAÇÃO-->
 
             <article id="projetos">
-                <h2><i class="fa-solid fa-moon"></i>Meus projetos</h2>
+                <h2><i class="fa-solid fa-hammer"></i>Meus projetos</h2>
+                    <div id="projeto-container">
+                        <!---->
+                        <div class="projeto">
+                            <img src="imagens/projeto-01-videos.jpg" alt="Projeto 1" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2022</p>
+                                <h3 class="titulo">Projeto de videos</h3>
+                                <p>Projeto construido para testar videos</p>
+                                <details class="descricao">
+                                    <summary>saiba mais...</summary>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex blanditiis at iusto totam assumenda corrupti recusandae dolorem atque nam, adipisci pariatur facilis quos illo illum? Qui reiciendis molestias repudiandae?</p>    
+                                </details>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="projeto">
+                            <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 1" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2022</p>
+                                <h3 class="titulo">Projeto de videos</h3>
+                                <p>Projeto construido para testar videos</p>
+                                <details class="descricao">
+                                    <summary>saiba mais...</summary>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex blanditiis at iusto totam assumenda corrupti recusandae dolorem atque nam, adipisci pariatur facilis quos illo illum? Qui reiciendis molestias repudiandae?</p>    
+                                </details>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="projeto">
+                            <img src="imagens/projeto-05-login.jpg" alt="Projeto 1" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2022</p>
+                                <h3 class="titulo">Projeto de videos</h3>
+                                <p>Projeto construido para testar videos</p>
+                                <details class="descricao">
+                                    <summary>saiba mais...</summary>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex blanditiis at iusto totam assumenda corrupti recusandae dolorem atque nam, adipisci pariatur facilis quos illo illum? Qui reiciendis molestias repudiandae?</p>    
+                                </details>
+                            </div>
+                        </div>
+                        <!---->
+                    </div>
             </article> <!--FIM DO ARTICLE DE PROJETOS-->
         </section>
     </main>
     <footer>
-
+        Portifólio desenvolvido por <a href="https://github.com/shuezidoro" target="_blank" rel="nofollow">Braian Izidoro</a> 
     </footer>
     <script src="scripts/script.js"></script>
 </body>
